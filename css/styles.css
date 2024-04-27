@@ -10,7 +10,7 @@
 }
 
 body {
-    background: #FFDFDF;
+    background: #F1EEDC;
 }
 
 .nav {
@@ -60,11 +60,6 @@ body {
     color: #BD4B4B;
 }
 
-.nameofweb {
-    color: white;
-    font-weight: bolder;
-}
-
 .search {
     margin: 28px;
     padding: 0;
@@ -101,12 +96,12 @@ button[type="submit"]:hover {
     background-color: #9C254D;
 }
 
-.intro {
+/* .intro {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 5rem;
-    width: 1229px;
+    width: 100%;
     height: 230px;
     background-color: #9C254D;
     background-image: url(/assets/pic1.png);
@@ -120,12 +115,61 @@ button[type="submit"]:hover {
     text-align: center;
 }
 
+.talolong-container,
+.lopez-container {
+    flex: 0 0 auto;
+}
+
+.talolong-logo {
+    width: 100px;
+    height: auto;
+    margin-left: 20px; 
+    margin-right: 100px;
+}
+
+.lopez-logo {
+    width: 100px;
+    height: auto;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+
+.chairperson-container {
+    display: flex;
+    margin-top: 20px; 
+    margin-right: 20px;
+} */
+
+.ilovelopez-section {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.lopezimg {
+    width: 650px;
+    height: auto;
+    margin-left: 0px;
+}
+
+.message-title {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 250px;
+    margin-bottom: 20px;
+}
+
+.msg-content {
+    margin-left: 50px;
+}
+
 .footer {
     background-color: black;
     color: white;
     text-align: center;
     padding: 20px 0;
-    position: fixed;
     bottom: 0;
     width: 100%;
 }
